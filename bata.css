@@ -1,0 +1,510 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.page-wrapper{
+    width: 100%;
+    height: auto;
+    margin: auto;
+}
+.header{
+    width: 100%;
+    height: 200px;
+}
+.topbar{
+    width: 100%;
+    height: 30px;
+    background-color: red;
+
+}
+.list a:hover{
+    color: black;
+}
+.list{
+    padding-top: 5px;
+}
+.list li{
+    color: white;
+    display: inline;
+    margin-left: 15px;
+    float: left;
+}
+.list a{
+    color: white
+}
+.link{
+    margin-left: 10px;
+
+}
+.bar{
+    margin-left: 20px;
+}
+.social-icons{
+    float: right;
+    text-align: center;
+    padding-right: 50px;
+}
+.col-icons li{
+    display: inline;
+    margin-right: 5px;
+    color: white;
+}
+.search-col{
+    margin-left: 50px;
+    height: 130px;
+    
+}
+.line{
+    border: none;
+    border-bottom: 1px solid ; 
+    height: 38px;
+}
+.search{
+    float: left;
+    font-style: italic;
+    padding-top: 40px;
+}
+.icon-search{
+    padding-top: 50px;
+    float: left;
+}
+.icon-search button{
+    background-color: white;
+    border: none;
+    color: rgb(199, 194, 194);
+}
+.bata-img{
+    padding-top: 40px;
+}
+.bata-img .img{
+    width: 227.52px;
+    height: 52.88px;
+    float: left;
+    margin-left: 150px;
+}
+.col-cart{
+    float: right;
+    padding-top: 35px;
+    margin-right: 50px;
+    color: gray;
+}
+
+.menu-bar li{
+ 
+    display: inline;
+    padding: 15px;
+    color: grey;
+}
+.menu-bar{
+    padding-left: 300px;
+}
+.slide img{
+    width: 900px;
+    height: 400px;
+
+}
+.slider{
+    overflow: hidden;
+    height: 450px;
+    width: 900px;
+}
+.slider figure div{
+    float: left;
+    width: 800px;
+    padding-left: 100px;
+    padding-top: 30px;
+    height: 400px;
+}
+.slider figure img{
+    width: 100%;
+    float: left;
+
+}
+.slider figure{
+    position: relative;
+    width: 500%;
+    margin: 0px;
+    left: 0;
+    animation: 20s ravi infinite;
+}
+@keyframes ravi{
+    0%{
+      left: 0%;
+    }
+    10%{
+      left: 0%;
+
+    }
+    12%{
+      left: -100%;
+
+    }
+    22%{
+      left: -100%;
+
+    }
+    24%{
+      left: -200%;
+
+    }
+    34%{
+      left: -200%;
+
+    }
+    36%{
+      left: -300%;
+
+    }
+    46%{
+      left: -300%;
+        
+    }
+    48%{
+      left: -400%;
+        
+    }
+    58%{
+      left: -400%;
+        
+    }
+    60%{
+      left: -300%;
+
+    }
+    70%{
+      left: -300%;
+
+
+    }
+    72%{
+      left: -200%;
+
+
+    }
+    82%{
+      left: -200%;
+    
+    }
+    84%{
+      left: -100%;
+        
+
+    }
+    94%{
+      left: -100%;
+
+
+    }
+    96%{
+    left: 0%;
+
+    }
+
+
+    
+
+
+}
+
+.col-xs-12{
+    width: 100%;
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+fieldset.box-title {
+    text-align: center;
+    border-top: 1px solid #000 !important;
+    color: #000;
+    position: relative;
+    text-transform: uppercase;
+    border: 0;
+    font-weight: 400;
+    font-size: 29px;
+    margin-right: 20px;
+    margin-left: 20px;
+    color: #6faff7;
+}
+.col-xs-12{
+    height: 40px;
+}
+.three-img{
+    display: flex;
+    flex-direction: row;
+    padding-left: 20px;
+    height: 350px;
+    
+}
+.img1{
+    margin: 15px;
+}
+.bata-pic{
+    width: 288px;
+    height: 288px;
+}
+.one-img{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+}
+.girl-img{
+    width: 600px;
+    height:255px;
+    padding-left: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+    
+}
+.girl-img img{
+    width: 700px;
+}
+.girl-text{
+    width: 20%;
+    height: 255px;
+    
+}
+.girl-text h2{
+    font-size: 20px;
+    color: #6e6e6e;
+    padding-bottom: 10px;
+    margin: 0px 0px 10px;
+    border-bottom: 1px solid #000;
+    font-weight: 400;
+}
+.girl-text li{
+    font-size: 20px;
+    color: #525050;
+    font-weight: 400;
+
+
+
+}
+.catagory{
+    width: 100%;
+    height: 125px;
+    padding-left: 100px;
+    text-decoration: none;
+    padding-top: 50px;
+}
+.catagory ul{
+    list-style-type: none;
+}
+.Trend{
+    width: 202px;
+    height: 125px;
+    padding-top: 30px;
+}
+.Trend img{
+    width: 202px;
+    height: 180px;
+
+}
+.two-img{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+}
+.two-img .catagory{
+    width: 100%;
+    height: 125px;
+    padding-left: 50px;
+    text-decoration: none;
+    padding-top: 50px;
+
+}
+.two-img .girl-img{
+    width: 600px;
+    height:255px;
+    padding-left: 70px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+    
+}
+.two-img .catagory{
+    text-align: right;
+}
+.twice-img{
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+    padding-left: 20px;
+    padding-right: 20px;
+
+}
+.bata2-pic{
+    width: 450px;
+    height: 336px;
+    padding-left: 15px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 10px;
+}
+.brand{
+    height: 250px;
+    display: flex;
+    flex-direction: row;
+    padding-left: 20px;
+    padding-right: 20px;
+
+
+}
+.shoe-brand{
+    width: 457px;
+    height: 192px;
+    padding-left: 15px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.feature{
+    display: flex;
+    flex-direction: row;
+    padding-left: 15px;
+    height: 350px;
+}
+.trendy{
+    width: 295px;
+    height: 295px;
+    padding-left: 23px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.social1{
+    display: flex;
+    flex-direction: row;
+    padding-left: 15px;
+    height: 350px;
+    padding-top: 20px;
+
+}
+.text{
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    background-color: #e7e5e5;
+    margin-left: 20px;
+    margin-left: 20px;
+}
+.video{
+    margin-left: 20px;
+    height: 300px;
+}
+.about-heading{
+    padding-top: 15px;
+    font-size: 20px;
+    color: black;
+    padding-bottom: 0px;
+    margin: 0px 0px 10px;
+    font-weight: 400;
+}
+.h{
+    height: 10px;
+
+}
+
+.line{
+    border-bottom: 1px solid #000;
+    margin-left: 10px;
+    margin-right: 10px;
+
+}
+.text p{
+    padding-top: 10px;
+    color: #525050
+}
+.sign{
+    width: 300px;
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+}
+.up-two input{
+    width: 300px;
+    height: 30px;
+    padding-left: 100px
+}
+.up-two{
+    padding-left: 10px;
+}
+.up p{
+    width: 250px;
+    padding-left: 100px;
+    padding-top: 10px;
+    position: relative;
+
+}
+.up-two i{
+    position: absolute;
+    top: 3650px;
+    color: #6faff7;
+    padding-left: 2px;
+}
+.subscribe{
+}
+button{
+    background-color: red;
+    height: 35px;
+    color: white;
+    border: none
+    
+
+}
+.bata-about{
+    display: flex;
+    flex-direction: row;
+    height: 250px;
+    background-color: #f1f0f0;
+    padding-top: 30px;
+    padding-left: 25px;
+}
+.bata-about-row{
+    width: 200px;
+
+    
+}
+.bata-about-row li{
+    list-style-type: none;
+    padding-top: 10px;
+
+}
+.bata-about-row ul{
+    padding-top:20px; 
+}
+.bata-about-row img{
+    width:70px;
+    height: 50px; 
+    padding-top: 5px;
+
+}
+.bata-about-row .jama img{
+    width: 180px;
+    height: 180px;
+    padding-top: 5px;
+}
+.last-paragraph{
+    width: 100%;
+    height: 200px;
+    background-color: #f1f0f0;
+}
+.last-paragraph h3{
+    padding-top: 20px;
+    padding-left: 25px;
+}
+.last-paragraph p{
+    padding-top: 15px;
+    padding-left: 25px;
+}
+.copy{
+    height: 30px;
+    background-color: red;
+    color: white;
+
+}
+.copy h4{
+    text-align: center;
+    padding-top: 5px;
+}
